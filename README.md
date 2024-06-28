@@ -66,13 +66,13 @@ The http server presents three endpoints. `/` returns information for both fridg
 ```json
 {
   "fridge": {
-    "temp_f": "77.34",
-    "temp_c": "25.19",
+    "temp_f": 77.34,
+    "temp_c": 25.19,
     "door_open": true
   },
   "freezer": {
-    "temp_f": "77.45",
-    "temp_c": "25.25",
+    "temp_f": 77.45,
+    "temp_c": 25.25,
     "door_open": true
   }
 }
@@ -81,8 +81,8 @@ The http server presents three endpoints. `/` returns information for both fridg
 `/fridge`, `/freezer`
 ```json
 {
-  "temp_f": "77.34",
-  "temp_c": "25.19",
+  "temp_f": 77.34,
+  "temp_c": 25.19,
   "door_open": true
 }
 ```

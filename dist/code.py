@@ -50,8 +50,8 @@ def read_temp(device):
     print(f"Reading {device} temperature...")
     temperature = device.temperature
     data = {
-        "temp_f": f"{c_to_f(temperature):.2f}",
-        "temp_c": f"{temperature:.2f}",
+        "temp_f": float(f"{c_to_f(temperature):.2f}"),
+        "temp_c": float(f"{temperature:.2f}"),
     }
     print(" ", data)
     return data
